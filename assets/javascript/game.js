@@ -30,12 +30,14 @@ function crystalCollector(){
         losses++; 
         //$("#footer-content").text("YOU LOSE!");
         $(".losses").text(losses);
+        alert("YOU LOSE!");
         numGenerator();
     }
     else if (currentScore === targetScore){
         wins++;
         //$("#footer-content").text("YOU WIN!");
         $(".wins").text(wins);
+        alert("YOU WIN!");
         numGenerator();
     }
 }
