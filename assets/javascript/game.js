@@ -28,49 +28,40 @@ function addGems(value) {
 function crystalCollector(){
     if (currentScore > targetScore){
         losses++; 
-        //$("#footer-content").text("YOU LOSE!");
         $(".losses").text(losses);
         alert("YOU LOSE!");
         numGenerator();
     }
     else if (currentScore === targetScore){
         wins++;
-        //$("#footer-content").text("YOU WIN!");
         $(".wins").text(wins);
         alert("YOU WIN!");
         numGenerator();
     }
 }
 
+/* function gameAlert(){
+    if (currentScore > targetScore){
+        alert("YOU LOSE!");
+    }
+    else if (currentScore === targetScore){
+        alert("YOU WIN!" + " " + currentScore);
+    }
+} */
+
 
 numGenerator();
 
 $(document).ready(function () {
 
-/*     $(document).on("click", function(){
-        if (currentScore > targetScore){
-            losses++; 
-            $("#footer-content").text("YOU LOSE!");
-            $(".losses").text(losses);
-            numGenerator();
-        }
-        else if (currentScore === targetScore){
-            wins++;
-            $("#footer-content").text("YOU WIN!");
-            $(".wins").text(wins);
-            numGenerator();
-        }
-    }); */
-
-
-
-
     $(".target-score").text(targetScore);
 
-    $("#btn-ruby").on("click", function () {
+    $("#btn-ruby").click(function () {
         addGems(ruby);
         $(".current-score").text(currentScore);
+        //gameAlert();
         crystalCollector();
+
 
 
         console.log("the value of this gem is " + ruby);
@@ -78,19 +69,22 @@ $(document).ready(function () {
         console.log("---------");
         
     });
-    $("#btn-amber").on("click", function () {
+    $("#btn-amber").click(function () {
         addGems(amber);
         $(".current-score").text(currentScore);
+        //gameAlert();
         crystalCollector();
+
 
 
         console.log("the value of this gem is " + amber);
         console.log("new current score " + currentScore);
         console.log("---------");
     });
-    $("#btn-saphire").on("click", function () {
+    $("#btn-saphire").click(function () {
         addGems(saphire);
         $(".current-score").text(currentScore);
+        //gameAlert();
         crystalCollector();
 
 
@@ -98,9 +92,10 @@ $(document).ready(function () {
         console.log("new current score " + currentScore);
         console.log("---------");
     });
-    $("#btn-emerald").on("click", function () {
+    $("#btn-emerald").click(function () {
         addGems(emerald);
         $(".current-score").text(currentScore);
+        //gameAlert();
         crystalCollector();
 
 
