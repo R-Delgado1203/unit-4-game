@@ -73,6 +73,7 @@ body{
     background-color: grey;
     
 }
-#btn-ruby{
-    src: url("../images/ruby.jpg");
+.btn-gem{
+    width: 165px;
+    height: auto;
 }
