@@ -18,7 +18,8 @@
 <body>
 
 
-    <main id="main container">
+    <main class="container" id="main-container">
+
         <!-- header -->
         <div class="row">
             <div class="col-md-12">
@@ -28,17 +29,13 @@
             </div>
         </div>
 
+        <!--instructions-->
         <div class="row instructions-row">
             <div class="col-md-12 text-center instructions-col">
                 <h2 class="text-center instructions-head">Instructions</h2>
-                <p class="instructions">Click the gems to add to your score, match the target score to win, go over
-                    and you lose. The gem values are randomized at the beginning of every round. Good luck!</p>
-
+                <p class="instructions">Click the gems to add to your score, match the target score to win, go over and you
+                    lose. The gem values are randomized at the beginning of every round. Good luck!</p>
             </div>
-
-
-
-
         </div>
 
         <!-- game text -->
@@ -47,39 +44,9 @@
 
             <div class="col-md-3">
                 <div class="card">
-                    <h5 class="card-header text-center">Target Score</h5>
-                    <div class="card-body">
-                        <h5 class="card-title text-center target-score"></h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="card">
                     <h5 class="card-header text-center">Wins</h5>
                     <div class="card-body">
                         <h5 class="card-title wins text-center">0</h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3"></div>
-        </div>
-
-        <!--         <div class="row">
-            <div class="col-md-12">
-                <p></p>
-            </div>
-        </div> -->
-
-        <div class="row">
-            <div class="col-md-3"></div>
-
-            <div class="col-md-3">
-                <div class="card">
-                    <h5 class="card-header text-center">Current Score</h5>
-                    <div class="card-body">
-                        <h5 class="card-title current-score text-center">0</h5>
                     </div>
                 </div>
             </div>
@@ -97,70 +64,37 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12">
-                <p></p>
+            <div class="col-md-3"></div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <h5 class="card-header text-center">Target Score</h5>
+                    <div class="card-body">
+                        <h5 class="card-title text-center target-score"></h5>
+                    </div>
+                </div>
             </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <h5 class="card-header text-center">Current Score</h5>
+                    <div class="card-body">
+                        <h5 class="card-title current-score text-center">0</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3"></div>
         </div>
 
         <!-- game buttons -->
-        <div class="row">
+        <div class="row btn-row">
             <div class="col-md-12 text-center">
-                <!--                 <button id="btn-ruby" type="button" class="btn btn-danger btn-lg">
-                    Ruby
-                </button>
-            
-            
-                <button id="btn-citrine" type="button" class="btn btn-warning btn-lg">
-                    Amber
-                </button>
-            
-            
-                <button id="btn-saphire" type="button" class="btn btn-primary btn-lg">
-                    Saphire
-                </button>
-            
-            
-                <button id="btn-emerald" type="button" class="btn btn-success btn-lg">
-                    Emerald
-                </button>
-            </div> -->
-
-
                 <input class="btn-gem" type="image" id="btn-ruby" src="assets/images/ruby.jpg">
                 <input class="btn-gem" type="image" id="btn-citrine" src="assets/images/citrine.jpg">
                 <input class="btn-gem" type="image" id="btn-saphire" src="assets/images/saphire.jpg">
                 <input class="btn-gem" type="image" id="btn-emerald" src="assets/images/emerald.jpg">
-
             </div>
-
-
-            <!-- <div class="row buttons">
-            <div class="col-md-3 text-center">
-
-                <button type="button" class="btn btn-danger btn-lg btn-ruby">
-                    Ruby
-                </button>
-            </div>
-            <div class="col-md-3 text-center">
-
-                <button type="button" class="btn btn-warning btn-lg btn-citrine">
-                    Amber
-                </button>
-            </div>
-            <div class="col-md-3 text-center">
-
-                <button type="button" class="btn btn-primary btn-lg btn-saphire">
-                    Saphire
-                </button>
-            </div>
-            <div class="col-md-3 text-center">
-
-                <button type="button" class="btn btn-success btn-lg btn-emerald">
-                    Emerald
-                </button>
-            </div>
-        </div> -->
-
 
             <!-- footer -->
             <div class="row">
@@ -172,14 +106,6 @@
             </div>
 
     </main>
-
-    <!--     <div>
-        <footer id="footer">
-            <h1 class="text-center">Crystal Collector!</h1>
-        </footer>
-    </div> -->
-
-
 
 </body>
 

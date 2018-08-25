@@ -1,79 +1,63 @@
-/* *{
-    margin: 0;
-    padding: 0;
-}
-
-html, body {
-    height: 100%;
-}
-
-#container{
-    min-height: 100%;
-}
-
-#main{
-    overflow: auto;
-    padding-bottom: 100px;
-    height: 1000px;
-} */
-
 #header{
     padding-top: 50px;
-    padding-bottom: 50px;
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+    padding-bottom: 50px;    
 }
+
 .header-head{
     color: white;
-    font-size: 50pt;
-    
+    font-size: 50pt;   
 }
 
-
 .footer{
-/*     background-color: black;
-    position: relative;
-    height: 100px;
-    margin-top: -100px;
-    clear: both; */
     position: fixed;
     left: 0;
     bottom: 0;
     width: 99%;
     text-align: center;
-
 }
 
 .instructions-row{
     padding-bottom: 50px;
     color: white;
-
 }
+
 .instructions-head{
     padding: 20px;
     text-decoration: underline;
 }
+
 .instructions{
     font-size: 16pt;
-    
 }
+
 .instructions-col{
     border: solid;
+    border-radius: 75px;
+    border-width: thick;
+    width: 99%;
+    border-right: none;
+    border-left: none;
 }
+
 .card{
-    margin: 20px !important;
+    margin: 10px !important;
+}
+
+.col-md-3{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 body{
-/*     background-image: url("../images/inner-banner-15.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; */
     background-color: grey;
-    
 }
+
 .btn-gem{
     width: 165px;
     height: auto;
+    margin: 2px;
+}
+
+.btn-row{
+    padding: 15px;
 }
