@@ -18,7 +18,17 @@ html, body {
 } */
 
 #header{
+    padding-top: 50px;
     padding-bottom: 50px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.header-head{
+    color: white;
+    font-size: 50pt;
+    
 }
 
 
@@ -36,6 +46,33 @@ html, body {
 
 }
 
-.buttons{
+.instructions-row{
+    padding-bottom: 50px;
+    color: white;
+
+}
+.instructions-head{
+    padding: 20px;
+    text-decoration: underline;
+}
+.instructions{
+    font-size: 16pt;
     
+}
+.instructions-col{
+    border: solid;
+}
+.card{
+    margin: 20px !important;
+}
+
+body{
+/*     background-image: url("../images/inner-banner-15.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: grey;
+    
+}
+#btn-ruby{
+    src: url("../images/ruby.jpg");
 }

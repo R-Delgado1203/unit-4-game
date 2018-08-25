@@ -1,5 +1,5 @@
 var ruby = 0;
-var amber = 0;
+var citrine = 0;
 var saphire = 0;
 var emerald = 0;
 var targetScore = 0;
@@ -9,7 +9,7 @@ var currentScore = 0;
 
 function numGenerator() {
     ruby = Math.floor((Math.random() * 10) + 2);
-    amber = Math.floor((Math.random() * 10) + 2);
+    citrine = Math.floor((Math.random() * 10) + 2);
     saphire = Math.floor((Math.random() * 10) + 2);
     emerald = Math.floor((Math.random() * 10) + 2);
     targetScore = Math.floor(((Math.random() * 50) + 13));
@@ -69,15 +69,15 @@ $(document).ready(function () {
         console.log("---------");
         
     });
-    $("#btn-amber").click(function () {
-        addGems(amber);
+    $("#btn-citrine").click(function () {
+        addGems(citrine);
         $(".current-score").text(currentScore);
         //gameAlert();
         crystalCollector();
 
 
 
-        console.log("the value of this gem is " + amber);
+        console.log("the value of this gem is " + citrine);
         console.log("new current score " + currentScore);
         console.log("---------");
     });
